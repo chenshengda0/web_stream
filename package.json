@@ -1,6 +1,6 @@
 {
   "name": "dev_stream",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "repository": "git@github.com:chenshengda0/web_stream.git",
   "author": "shengdachen1991 <shengdachen1991@gmail.com>",
