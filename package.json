@@ -6,8 +6,11 @@
   "author": "shengdachen1991 <shengdachen1991@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "webpack && yarn publish",
-    "test": "ts-node ./test/index.ts"
+    "build": "webpack",
+    "publish": "webpack && yarn publish",
+    "push": "git add -A && git commit -m 'add' && git push origin main",
+    "test": "ts-node ./test/index.ts",
+    "prime": "ts-node ./src/tools/Prime.ts"
   },
   "dependencies": {
     "inquirer": "^8.2.1",
